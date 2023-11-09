@@ -1,27 +1,237 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* fonts.css */
+/* Copiez le code CSS fourni par Google Fonts ici */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+/* CLASS */
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.bg-primary {
+  background-color: #0f051d;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 30px;
 }
 
+.header-community {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  /* 175% */
+}
+
+.text-button {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21.6px;
+
+}
+
+.pl-55 {
+  padding-left: 55px
+}
+
+.pr-60 {
+  padding-right: 60px
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.pt-120 {
+  padding-top: 120px;
+}
+
+.pb-120 {
+  padding-bottom: 120px;
+}
+
+.mr-6rem {
+  margin-right: 6rem;
+}
+
+.mt-6rem {
+  margin-top: 6rem;
+}
+
+.pb-120 {
+  padding-bottom: 220px;
+}
+
+.pb-85 {
+  padding-bottom: 85px;
+}
+
+.pl-48 {
+  padding-left: 48px;
+}
+
+.fs-64 {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  /* 100% */
+}
+
+.fs-64 {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.gradient-text {
+  background: linear-gradient(60deg, #FF00EA 0%, #2600FC 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.br-16 {
+  border-radius: 16px;
+
+}
+
+.p-24-50 {
+  padding: 24px 50px;
+}
+
+.fs-28 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  /* 100% */
+}
+
+.author-name {
+  color: #B7B4BB;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 160% */
+}
+
+.text-color-works {
+  color: #B7B4BB;
+}
+
+.fs-19 {
+  font-size: 19px;
+}
+
+.font-style-normal {
+  font-style: normal;
+}
+
+.font-weight-400 {
+  font-weight: 400;
+}
+
+.line-height-30 {
+  line-height: 30px;
+}
+
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.font-size-17 {
+  font-size: 17px;
+}
+
+.gap-120 {
+  gap: 120px;
+}
+
+.height-624-98 {
+  height: 624.98px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.newsletter-div {
+  width: 1200px;
+  padding: 61px 57px;
+  border-radius: 32px;
+  border: 1px solid rgba(243, 243, 243, 0.25);
+}
+
+.newsletter-input {
+  padding: 14.5px 25px;
+  border-radius: 50px;
+  background: rgba(246, 242, 242, 0.19);
+}
+
+.newsletter-button {
+  width: 123.28px;
+  height: 47.19px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 19.2px;
+}
+
+
+
+/* HTML */
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #0f051d;
+  color: white;
+  font-family: Inter;
+}
+
+nav a {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  /* 111.111% */
+  text-transform: capitalize;
+  padding-left: 16px;
+  padding-top: 30px
+}
+
+h2 {
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+  /* 100% */
+}
+
+h3 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  /* 100% */
+}
+
+p {
+  color: #B7B4BB;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  /* 163.636% */
+}
+
+button {
+  border-radius: 50px;
+  background: linear-gradient(62deg, #2600FC 0%, #FF00EA 100%);
 }
