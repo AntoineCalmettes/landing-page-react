@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {}
 
-module.exports = nextConfig
-module.exports = {
-    basePath: '/landing-page-react/',
-    assetPrefix: '/landing-page-react/',
-  }
+ module.exports = nextConfig
+// module.exports = {
+//     basePath: '/landing-page/',
+//     assetPrefix: '/landing-page/',
+//   }
